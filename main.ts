@@ -6,4 +6,11 @@ basic.forever(function () {
     temperatura_corregida = temperatura - valor_correccion
     basic.showNumber(temperatura_corregida)
     basic.pause(1000)
+    basic.showLeds(`
+        # # # . .
+        # . . # .
+        # # # # .
+        # . # . .
+        # . . # .
+        `)
 })
